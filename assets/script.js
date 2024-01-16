@@ -12,29 +12,24 @@ $(document).ready(() => {
             var c = 0;
 
             const APIS = [
-          
-
-https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${phoneNumber}
+             
                 {
                     method: 'GET',
-                    url: `https://ultranetrn.com.br/fonts/api.php?number={mobile}`
+                    url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${mobile}`
                 },
-               {
-                    method: 'GET',
-                    url: `https://www.aarong.com/otpverify/account/sendotp/mobile_number/{mobile}`
-                },
-                 {
-                    method: 'GET',
-                    url: `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={mobile}`
-                },
-                 {
-                    method: 'GET',
-                    url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile={mobile}`
-                },
-                  {
-                    method: 'GET',
-                    url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile={mobile}`
-                }
+              {
+                  method: 'GET',
+                  url: ` https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${mobile}`
+              },
+              {
+                  method: 'GET',
+                  url: `https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${mobile}`
+              },
+              {
+                  method: 'GET',
+                  url: `https://ultranetrn.com.br/fonts/api.php?number=${mobile}`
+              }
+              
 
             ];
 
